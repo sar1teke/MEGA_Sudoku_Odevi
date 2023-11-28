@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css" />
+    <script src="lib/script.js"></script>
+    <style>
+	*{ box-sizing: border-box;}
+table {
+margin: auto;
+margin-top: 30px;
+}
+tr:first-child td {
+	border-top-color: black;
+  border-top-width: 5px;
+}
+tr:nth-child(3n) td {
+	border-bottom-color: black;
+  border-bottom-width: 5px;
+  
+}
+td {
+	border: 1px solid red;
+	height: 40px;
+	width: 40px;
+}
+td:first-child {
+	border-left-color: black;
+  border-left-width: 5px;
+}
+td:nth-child(3n) {
+	border-right-color: black;
+  border-right-width: 5px;
+}
+input:hover {
+	background: #ffffff;
+}
+.Ana_Tablo{
+  text-align: center;
+}
+#yaziboyutu{
+font-size: 25px;
+}
+
+#baslik{
+font-size: 42px;
+margin:auto;
+}
+    </style>
+  </head>
+
+  <body>
+    <center><p id="baslik">Sudoku İskeleti</p></center>
+    <table id="sudoku">
+      <tbody class="Ana_Tablo">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td></td>
+          <td>5</td>
+          <td></td>
+          <td>9</td>
+          <td></td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td></td>
+          <td>2</td>
+          <td></td>
+          <td>1</td>
+          <td>3</td>
+          <td>6</td>
+          <td>8</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>5</td>
+          <td>9</td>
+          <td>7</td>
+          <td></td>
+          <td>4</td>
+          <td>3</td>
+          <td></td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>4</td>
+          <td></td>
+          <td>9</td>
+          <td>6</td>
+          <td>7</td>
+          <td>4</td>
+          <td>1</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>9</td>
+          <td>8</td>
+          <td></td>
+          <td>8</td>
+          <td>5</td>
+          <td>5</td>
+          <td></td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>7</td>
+          <td>9</td>
+          <td></td>
+          <td>8</td>
+          <td></td>
+          <td>9</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>8</td>
+          <td>7</td>
+          <td>7</td>
+          <td></td>
+          <td>5</td>
+          <td>6</td>
+          <td>2</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>8</td>
+          <td></td>
+          <td></td>
+          <td>8</td>
+          <td>3</td>
+          <td></td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>3</td>
+          <td>8</td>
+          <td>6</td>
+          <td>5</td>
+          <td>2</td>
+          <td></td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
